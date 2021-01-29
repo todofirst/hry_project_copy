@@ -1,0 +1,58 @@
+/* miniprogram/pages/index_container/index/index.wxss */
+.swiper-bar{
+  width: 100%;
+  position: relative;
+  height: 30vh;
+}
+
+swiper{
+  width: 100%;
+  height: 100%;
+}
+
+swiper-item{
+  width: 100%;
+  height: 100%;
+}
+
+
+.swiper-item-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.decoration{
+  width: 100%;
+  height: 36rpx;
+  background-color: white;
+  border-radius: 100rpx 100rpx 0 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.fun_tabs{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.theme-patrs{
+  background-color: white;
+  margin-top: 14rpx;
+
+}
+
+.logo{
+  width: 168rpx;
+  height: 58rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+}
+
+
+
+
+

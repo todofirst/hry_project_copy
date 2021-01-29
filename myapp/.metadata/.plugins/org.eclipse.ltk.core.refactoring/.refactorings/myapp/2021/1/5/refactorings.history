@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;myapp&apos;&#x0D;&#x0A;- Original project: &apos;myapp&apos;&#x0D;&#x0A;- Original element: &apos;myapp/src/main/java/com.hry.myapp.servlet.impl&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hry.myapp.servlet.impl" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hry.myapp.servlet" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1611849534073" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index_container/index/index",
+    "pages/quanzi_container/quanzi/quanzi",
+    "pages/my_container/my/my",
+    "pages/haowu_container/haowu/haowu",
+    "pages/index_container/index_pages_included/index_announce/index",
+    "pages/index_container/index_pages_included/index_live_business/index",
+    "pages/index_container/index_pages_included/index_anchor/index",
+    "pages/index_container/index_pages_included/index_hr_data/index",
+    "pages/index_container/index_pages_included/index_resource/index",
+    "pages/index_container/index_pages_included/index_daily_recommend/index",
+    "pages/index_container/index_pages_included/index_haowu_detail/index",
+    "pages/index_container/index_pages_included/index_to_search/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "红人易",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/tabbar_icons/icon_index_selected.png",
+        "iconPath": "images/tabbar_icons/icon_index.png",
+        "pagePath": "pages/index_container/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tabbar_icons/icon_haowu_selected.png",
+        "iconPath": "images/tabbar_icons/icon_haowu.png",
+        "pagePath": "pages/haowu_container/haowu/haowu",
+        "text": "好物"
+      },
+      {
+        "selectedIconPath": "images/tabbar_icons/icon_quanzi_selected.png",
+        "iconPath": "images/tabbar_icons/icon_quanzi.png",
+        "pagePath": "pages/quanzi_container/quanzi/quanzi",
+        "text": "圈子"
+      },
+      {
+        "selectedIconPath": "images/tabbar_icons/icon_my_selected.png",
+        "iconPath": "images/tabbar_icons/icon_my.png",
+        "pagePath": "pages/my_container/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

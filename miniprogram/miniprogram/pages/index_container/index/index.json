@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "fun-tab": "../../../components/index_components/index_fun_tab/index",
+    "van-panel": "../../../miniprogram_npm/vant-weapp/panel/index",
+    "theme-part": "../../../components/index_components/index_theme_part/index",
+    "van-search": "../../../miniprogram_npm/vant-weapp/search/index",
+    "van-sticky": "../../../miniprogram_npm/vant-weapp/sticky/index"
+  },
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,5 @@
+package com.hry.myapp.interceptor;
+
+public class GlobalInterceptor {
+
+}

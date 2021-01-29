@@ -1,0 +1,13 @@
+package com.hry.myapp.beans;
+
+import lombok.Data;
+
+
+@Data
+public class Users {
+	
+	private Integer age=11 ;
+	private Integer id=1 ;
+	private String name="11" ;
+
+}

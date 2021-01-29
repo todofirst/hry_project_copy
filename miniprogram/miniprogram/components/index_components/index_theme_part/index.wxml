@@ -1,0 +1,40 @@
+  <view class="theme-part"
+        wx:for="{{theme_parts}}" 
+        wx:for-item="theme_part" 
+        wx:for-index="theme_index"
+        wx:key="{{theme_index}}">
+    <navigator url="{{theme_part.pagePath}}">
+      <view class="theme-header">
+        <view class="theme-header-content">
+          <view class="theme-tip">{{theme_part.tip}}</view>
+          <van-icon name="arrow" />
+        </view>
+      </view>
+    </navigator>
+    <view class="theme-show-container">
+      <navigator 
+      
+wx:for="{{theme_part.items}}"
+wx:key="{{item.id}}"      url="{{theme_part.item_base_url}}?id={{item.id}}">
+        <view class="part">
+          <view  class="cover-img">
+            <image 
+            src="{{item.cover}}"
+            lazy-load="true"
+            >
+            </image>
+          </view>
+          <view class="part-footer">
+            <view class="part-footer-top">
+              <text class="part-footer-tip">{{item.topTip}}：</text>
+              <text class="part-footer-tip">{{item.topValue}}</text>
+            </view>
+            <view class="part-footer-down">
+              <text class="part-footer-tip">{{item.downTip}}：</text>
+              <text class="part-footer-tip">{{item.downValue}}</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>

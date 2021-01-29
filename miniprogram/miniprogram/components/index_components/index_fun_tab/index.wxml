@@ -1,0 +1,13 @@
+<!--components/index_components/index_fun_tab/index.wxml-->
+
+<navigator url="{{pagePath}}">
+  <view class="tab_container">
+    <view class="tab_icon">
+      <image src="{{iconPath}}"></image>
+    </view>
+    <view class="tip">
+      {{tip}}
+    </view>
+  </view>
+</navigator>
+

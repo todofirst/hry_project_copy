@@ -1,0 +1,7 @@
+package com.hry.myapp.servlet.impl;
+
+
+
+public class UserServiceImpl extends ServiceImpl<IUserMapper, Users> implements UserService {
+
+}

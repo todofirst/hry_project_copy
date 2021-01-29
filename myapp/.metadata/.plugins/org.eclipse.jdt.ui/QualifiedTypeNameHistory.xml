@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="com.alibaba.druid.pool.DruidDataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.ServletRegistrationBean"/>
+    <fullyQualifiedTypeName name="com.alibaba.druid.support.http.StatViewServlet"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.FilterRegistrationBean"/>
+    <fullyQualifiedTypeName name="com.alibaba.druid.support.http.WebStatFilter"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
+    <fullyQualifiedTypeName name="com.hry.myapp.interceptor.GlobalInterceptor"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.baomidou.mybatisplus.extension.service.impl.ServiceImpl"/>
+    <fullyQualifiedTypeName name="com.hry.myapp.mapper.IUserMapper"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.hry.myapp.servlet.UserService"/>
+    <fullyQualifiedTypeName name="com.hry.myapp.servlet.impl.UserServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.hry.myapp.beans.Users"/>
+</qualifiedTypeNameHistroy>

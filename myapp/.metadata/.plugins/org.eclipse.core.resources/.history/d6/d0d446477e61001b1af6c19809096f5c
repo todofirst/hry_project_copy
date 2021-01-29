@@ -1,0 +1,5 @@
+package com.hry.myapp.config;
+
+public class DataSourceConfig {
+
+}

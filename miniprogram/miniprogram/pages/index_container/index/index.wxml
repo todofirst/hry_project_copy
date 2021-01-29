@@ -1,0 +1,50 @@
+<view class="swiper-bar">
+  <swiper 
+  indicator-dots="{{swiperBarConfig.indicatorDots}}" 
+  autoplay="{{swiperBarConfig.autoplay}}" 
+  interval="{{swiperBarConfig.interval}}"
+  circular="{{circular}}">
+
+    <swiper-item wx:for="{{swiper_bar_imgs}}" wx:key="{{index}}">
+        <image 
+        class="swiper-item-img"
+        src="{{item}}">
+        </image>
+    </swiper-item>
+  </swiper>
+
+  <view class="decoration"></view>
+</view>
+
+<image class="logo" src="../../../images/index_others_images/logo.png"></image>
+
+<van-sticky>
+  <view class="auth-part">
+    <van-search
+    custom-class="search-custom"
+    shape="round"
+    placeholder="请输入搜索关键词"
+    bindtap="onSearchFocus"
+  />
+  </view>
+</van-sticky>
+
+
+
+<view class="fun_tabs" >
+  <fun-tab 
+  wx:for="{{fun_tabs}}" wx:key="{{index}}"
+  iconPath="{{item.iconPath}}"
+  tip="{{item.tip}}"
+  pagePath="{{item.pagePath}}"
+  >
+  </fun-tab>
+</view>
+
+<view class="theme-patrs">
+
+  <theme-part theme_parts="{{theme_parts}}"></theme-part>
+
+</view>
+
+

@@ -1,0 +1,5 @@
+package com.hry.myapp.servlet;
+
+public interface UserService {
+
+}

@@ -1,0 +1,18 @@
+package com.hry.myapp.beans;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+
+@Component
+public class Users {
+	
+	private Integer age ;
+	private Integer id ;
+	private String name ;
+
+	
+	
+
+}

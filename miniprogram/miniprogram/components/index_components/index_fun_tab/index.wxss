@@ -1,0 +1,19 @@
+/* components/index_components/index_fun_tab/index.wxss */
+.tab_container{  
+  text-align: center;
+  margin: 20rpx;
+}
+
+.tab_icon{
+
+}
+
+.tab_icon>image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.tip{
+  font-size: 25rpx;
+
+}
