@@ -1,3 +1,13 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-icon": "../../../miniprogram_npm/vant-weapp/icon/index",
+    "van-grid": "../../../miniprogram_npm/vant-weapp/grid/index",
+    "van-grid-item": "../../../miniprogram_npm/vant-weapp/grid-item/index"
+  },
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ED33C4",
+    "navigationBarTitleText": "个人中心",
+    "navigationBarTextStyle": "white"
+  
 }

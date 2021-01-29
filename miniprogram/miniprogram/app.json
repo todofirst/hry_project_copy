@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/my_container/my/my",
     "pages/index_container/index/index",
     "pages/quanzi_container/quanzi/quanzi",
-    "pages/my_container/my/my",
     "pages/haowu_container/haowu/haowu",
     "pages/index_container/index_pages_included/index_announce/index",
     "pages/index_container/index_pages_included/index_live_business/index",
@@ -11,7 +11,18 @@
     "pages/index_container/index_pages_included/index_resource/index",
     "pages/index_container/index_pages_included/index_daily_recommend/index",
     "pages/index_container/index_pages_included/index_haowu_detail/index",
-    "pages/index_container/index_pages_included/index_to_search/index"
+    "pages/index_container/index_pages_included/index_to_search/index",
+    "pages/my_container/my_pages_included/select_login_type/index",
+    "pages/my_container/my_pages_included/task_request/index",
+    "pages/my_container/my_pages_included/haowu_request/index",
+    "pages/my_container/my_pages_included/business_auth/index",
+    "pages/my_container/my_pages_included/good_accept_addr/index",
+    "pages/my_container/my_pages_included/news_announce/index",
+    "pages/my_container/my_pages_included/help_center/index",
+    "pages/my_container/my_pages_included/invite_gift/index",
+    "pages/my_container/my_pages_included/contact_us/index",
+    "pages/my_container/my_pages_included/about_us/index",
+    "pages/my_container/my_pages_included/hr_academy/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

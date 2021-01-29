@@ -1,2 +1,80 @@
-<!--miniprogram/pages/my_container/my/my.wxml-->
-<text>miniprogram/pages/my_container/my/my.wxml</text>
+
+<view class="top-show-user">
+  <!-- 未登录 -->
+  <navigator url="/pages/my_container/my_pages_included/select_login_type/index"
+             wx:if="{{!isLogin}}"
+             class="user-nav">
+    <view class="show-user-container">
+      <view class="show-user">
+          <view class="show-user-info">
+            <view class="avatar-container">
+              <image src="../../../images/my_images/default_avatar.png"
+                class="avatar">
+              </image>
+              <view class="show-tip">
+                <view class="tip-top">登录/注册</view>
+              </view>
+            </view>
+        </view> 
+        <van-icon name="arrow" style= />
+      </view>
+    </view>
+  </navigator>
+  <!-- 已经登录 -->
+  <navigator url="/pages/my_container/my_pages_included/select_login_type/index"
+             wx:else
+             class="user-nav">
+    <view class="show-user-container">
+      <view class="show-user">
+          <view class="show-user-info">
+            <view class="avatar-container">
+              <image src="../../../images/my_images/default_avatar.png"
+                class="avatar">
+              </image>
+              <view class="show-tip">
+                <view class="tip-top">SMILE est</view>
+                <view class="tip-down">账号：12333</view>
+              </view>
+            </view>
+        </view> 
+        <van-icon name="arrow" style= />
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<view class="middle-my-request">
+  <view class="request-tip">我的申请</view>
+    <view class="request-icons">
+      
+      <navigator class="request-icon" url="/pages/my_container/my_pages_included/haowu_request/index">
+        <image src="../../../images/my_images/icon_haowu_request.png"></image>
+        <text>好物申请</text>
+      </navigator>
+      <navigator class="request-icon" url="/pages/my_container/my_pages_included/task_request/index">
+        <image src="../../../images/my_images/icon_task_request.png"></image>
+        <text>任务申请</text>
+      </navigator>
+    </view>
+</view>
+
+<view class="middle-fun-tabs">
+  <van-grid>
+    <van-grid-item
+     use-slot
+     wx:for="{{fun_icons}}"
+     wx:key="index"
+     url="{{item.url}}" 
+     >
+     <image
+      class="icon-class"
+      src="{{basePath+item.icon}}"
+    />
+    <text class="icon-tip">{{item.tip}}</text>
+    </van-grid-item>
+  </van-grid>
+</view>
+
+<view class="footer-button" wx:if="{{isLogin}}">
+  <view class="button">退出登陆</view>
+</view>
